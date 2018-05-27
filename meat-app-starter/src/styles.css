@@ -266,11 +266,3 @@ body {
 .dark-bar{
   background-color: #000 !important;
 }
-
-li a.bg-cor:active{
-  background-color: #dd4b39;
-}
-
-a.bg-cor:hover{
-  background-color: #dd4b39;
-}
