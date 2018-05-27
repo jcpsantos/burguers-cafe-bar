@@ -20,4 +20,9 @@ export class RestaurantsService{
       return this.http.get(`${BURGUER_API}/restaurants/${id}`).map(response => response.json())
         .catch(ErrorHandler.handleError)
     }
+
+    reviewsOfRestaurante(id: string): Observable <any>{
+        return this.http.get(`${BURGUER_API}/restaurants/${id}/reviews`).map(response => response.json())
+          .catch(ErrorHandler.handleError)
+    }
 }
