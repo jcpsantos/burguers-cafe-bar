@@ -12,6 +12,12 @@ export class RestaurantsService{
     constructor(private http: Http){}
 
     restaurants(): Observable<Restaurante[]>{
-      return this.http.get(`${BURGUER_API}/restaurants`).map(response => response.json()).catch(ErrorHandler.handleError)
+      return this.http.get(`${BURGUER_API}/restaurants`).map(response => response.json())
+        .catch(ErrorHandler.handleError)
+    }
+
+    restauranteById(id: string): Observable<Restaurante>{
+      return this.http.get(`${BURGUER_API}/restaurants/${id}`).map(response => response.json())
+        .catch(ErrorHandler.handleError)
     }
 }
