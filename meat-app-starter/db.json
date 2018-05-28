@@ -3,7 +3,7 @@
     {
       "id": "bread-bakery",
       "name": "Bread & Bakery",
-      "category": "Bakery",
+      "category": "Padaria e Café",
       "deliveryEstimate": "25m",
       "rating": 4.9,
       "imagePath": "assets/img/restaurants/breadbakery.png",
@@ -13,7 +13,7 @@
     {
       "id": "burger-house",
       "name": "Burger House",
-      "category": "Hamburgers",
+      "category": "Hamburguer",
       "deliveryEstimate": "100m",
       "rating": 3.5,
       "imagePath": "assets/img/restaurants/burgerhouse.png",
@@ -23,7 +23,7 @@
     {
       "id": "coffee-corner",
       "name": "Coffee Corner",
-      "category": "Coffee Shop",
+      "category": "Café",
       "deliveryEstimate": "30-40m",
       "rating": 4.8,
       "imagePath": "assets/img/restaurants/coffeecorner.png",
@@ -32,32 +32,32 @@
     },
     {
       "id": "green-food",
-      "name": "Green Food",
-      "category": "Saudável",
+      "name": "Hot Coffe",
+      "category": "Café",
       "deliveryEstimate": "75m",
       "rating": 4.1,
-      "imagePath": "assets/img/restaurants/greenfood.png",
-      "about": "Comida saudável é no Green Food. Compramos barato, vendemos caro. ;)",
-      "hours": "Somente em horário de almoço, das 11h às 15h"
+      "imagePath": "assets/img/restaurants/hotcoffee.png",
+      "about": "O melhor café do mundo você encontra aqui",
+      "hours": "Somente em pela manhã, das 5h às 12h"
     },
     {
       "id": "ice-cream",
-      "name": "Ice Cream",
-      "category": "Ice Creams",
+      "name": "Cup Cake Shop",
+      "category": "Doce e Café",
       "deliveryEstimate": "40-65m",
       "rating": 4.5,
-      "imagePath": "assets/img/restaurants/icy.png",
-      "about": "A Ice Cream é uma sorveteria inovadora.",
+      "imagePath": "assets/img/restaurants/cupcake.png",
+      "about": "A Cup Cake Shop é uma doceria inovadora.",
       "hours": "Funciona todos os dias, de 10h às 1h"
     },
     {
       "id": "tasty-treats",
-      "name": "Tasty Treats",
-      "category": "Doces",
+      "name": "Social Food",
+      "category": "Hamburguer e Bar",
       "deliveryEstimate": "20m",
       "rating": 4.4,
-      "imagePath": "assets/img/restaurants/tasty.png",
-      "about": "A doceria com mais tradição da cidade",
+      "imagePath": "assets/img/restaurants/Logo_redeSocial.png",
+      "about": "Se você ama hamburguer e uma boa cerveja aqui é o seu lugar",
       "hours": "Funciona de segunda à sábado, de 8h às 23h"
     }
   ],
@@ -136,73 +136,73 @@
     },
     {
       "id": "zlasagna",
-      "imagePath": "assets/img/foods/zlasagna.png",
-      "name": "Lasagna de Zucchini",
-      "description": "Lasagna deliciosa que se salva por causa do queijo",
+      "imagePath": "assets/img/foods/tortadecafe.jpg",
+      "name": "Torta de Café",
+      "description": "A mais deliciosa torta de café com chocolote",
       "price": 14.9,
       "restaurantId": "green-food"
     },
     {
       "id": "greensandwich",
-      "imagePath": "assets/img/foods/greensandwich.png",
-      "name": "Sanduíche de Frango",
-      "description": "Frango grelhado e salada",
+      "imagePath": "assets/img/foods/brownie-cafe.jpg",
+      "name": "Brownie de Café",
+      "description": "Nosso mais delicioso brownie de Café com nozes",
       "price": 10.5,
       "restaurantId": "green-food"
     },
     {
       "id": "ceasar",
-      "imagePath": "assets/img/foods/ceasar.png",
-      "name": "Salada Ceasar",
-      "description": "Clássica salada ceasar.",
+      "imagePath": "assets/img/foods/cafe-conhaque.jpg",
+      "name": "Café com Conhaque",
+      "description": "Nossa estrela da casa um delicioso café com conhaque.",
       "price": 33.9,
       "restaurantId": "green-food"
     },
     {
       "id": "sunday",
-      "imagePath": "assets/img/foods/sunday.png",
-      "name": "Mega Sunday",
-      "description": "Sunday com várias bolas de sorvete a sua escolha",
+      "imagePath": "assets/img/foods/oreo-cafe.jpg",
+      "name": "Café Gelado com Oreo",
+      "description": "Uma das 7 maravilhas do mundo",
       "price": 21.5,
       "restaurantId": "ice-cream"
     },
     {
       "id": "chocpop",
-      "imagePath": "assets/img/foods/chocpop.png",
-      "name": "Picolé de Brigadeiro",
-      "description": "Picolé de brigadeiro recheado com côco.",
+      "imagePath": "assets/img/foods/oreo-cupcake.jpg",
+      "name": "Cupcake de Oreo",
+      "description": "Nosso grande clássico agora acompanhado com Oreo.",
       "price": 8.5,
       "restaurantId": "ice-cream"
     },
     {
       "id": "icestd.png",
-      "imagePath": "assets/img/foods/icestd.png",
-      "name": "Sorvete Simples",
-      "description": "Clássico sorvete de rua onde todos os sabores são idênticos.",
-      "price": 1.5,
+      "imagePath": "assets/img/foods/marquesita.jpg",
+      "name": "Marquesita com Nutella",
+      "description": "Clássico yucateco recheado com queijo e Nutella.",
+      "price": 11.5,
       "restaurantId": "ice-cream"
     },
     {
       "id": "cup",
-      "imagePath": "assets/img/foods/cup.png",
-      "name": "Cup Cake de Choc. Branco",
-      "description": "Cup Cake de chocolate branco",
+      "imagePath": "assets/img/foods/tecate.jpeg",
+      "name": "Tecate - Michelada Diablo",
+      "description": "A verdadeira Michelada Mexicana El Diablo",
       "price": 5.5,
       "restaurantId": "tasty-treats"
     },
     {
       "id": "straw",
-      "imagePath": "assets/img/foods/straw.png",
-      "name": "Bolo de Morango",
-      "description": "Bolo recheado e coberto com morangos",
+      "imagePath": "assets/img/foods/angry.jpg",
+      "name": "Angry Jack Daniel's",
+      "description": "Um delicioso hamburguer com duas carnes de Angus, com nosso molho clássico de Jack Daniel's",
       "price": 40.5,
       "restaurantId": "tasty-treats"
     },
     {
       "id": "cake",
-      "imagePath": "assets/img/foods/cake.png",
-      "name": "Fatia de Bolo",
-      "description": "Fatia de bolo de morango",
+      "imagePath": "assets/img/foods/doisxx.jpg",
+      "name": "Cerveja Dos Equis",
+      "description": "Maravilhosa cerveja",
       "price": 5.9,
       "restaurantId": "tasty-treats"
     }
@@ -366,7 +366,7 @@
       "name": "Marília",
       "date": "2016-12-20T18:25:43",
       "rating": 4.5,
-      "comments": "Taxa de entrega bastante elevada e precisa colocar no app se a pessoa quer porção adicional de algo (calda, crocante etc)",
+      "comments": "Taxa de entrega bastante elevada e precisa colocar no app se a pessoa quer porção adicional de algo (onion ring, camarão, bacon, etc)",
       "restaurantId": "tasty-treats"
     }
   ],
