@@ -47,7 +47,6 @@ body {
   /*height: 120px;*/
   width: 120px;
   text-align: center;
-  background: rgba(0, 0, 0, 0.2);
 }
 .place-info-box-icon > img {
   max-width: 100%;
@@ -265,4 +264,19 @@ body {
 /*******************************************************/
 .dark-bar{
   background-color: #000 !important;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url('banner1.png')  !important ;
+ 
+  /* Full height */
+  height: 100%; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
