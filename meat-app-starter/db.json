@@ -129,7 +129,7 @@
     {
       "id": "starb",
       "imagePath": "assets/img/foods/starb.png",
-      "name": "Café Andatti - Oxxo",
+      "name": "Starbucks Copycat",
       "description": "O mais pedido da casa. O verdadeiro café americano pura água.",
       "price": 15.6,
       "restaurantId": "coffee-corner"
@@ -370,5 +370,12 @@
       "restaurantId": "tasty-treats"
     }
   ],
-  "orders": []
+  "orders": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    }
+  ]
 }
