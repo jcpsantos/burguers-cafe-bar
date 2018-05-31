@@ -39,7 +39,7 @@ export class OrderService{
         const headers = new Headers()
         headers.append('Content-Type', 'applicaton/json')
         return this.http.post(`${BURGUER_API}/orders`, JSON.stringify(order), new RequestOptions({headers: headers}))
-        .map(response => response.json())
+        .map(response => response.json()).map(order => order.id)
     }
 
  
